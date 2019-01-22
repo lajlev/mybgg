@@ -228,5 +228,6 @@ function init(SETTINGS) {
 loadJSON("config.json", init);
 
 setInterval(function() { 
-  window.top.postMessage(document.body.scrollHeight, "*");
-}, 500); 
+  parent.postMessage(document.body.scrollHeight, 'https://codepen.io');
+  //window.top.postMessage(document.body.scrollHeight, "https://codepen.io");
+}, 500);
