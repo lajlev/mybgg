@@ -225,9 +225,4 @@ function init(SETTINGS) {
   set_bgg_name();
 }
 
-setInterval(function() { 
-  parent.postMessage(document.body.scrollHeight, 'http://braetspilaarhus.dk');
-  console.log('height:' + document.body.scrollHeight);
-}, 500);
-
 loadJSON("config.json", init);
