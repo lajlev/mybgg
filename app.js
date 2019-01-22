@@ -225,9 +225,9 @@ function init(SETTINGS) {
   set_bgg_name();
 }
 
-loadJSON("config.json", init);
-
 setInterval(function() { 
-  parent.postMessage(document.body.scrollHeight, 'https://codepen.io');
-  //window.top.postMessage(document.body.scrollHeight, "https://codepen.io");
+  parent.postMessage(document.body.scrollHeight, 'http://braetspilaarhus.dk');
+  console.log('height:' + document.body.scrollHeight);
 }, 500);
+
+loadJSON("config.json", init);
