@@ -1,19 +1,19 @@
 {
     "project": {
-        "name": "eilertsen",
-        "title": "Aarhus braetspilsfestival bibliotek"
+      "name": "eilertsen",
+      "title": "Aarhus braetspilsfestival bibliotek"
     },
     "boardgamegeek": {
-        "user_name": "eilertsen",
-        "extra_params": {
-            "own": 1
-        }
+      "user_name": "eilertsen",
+      "extra_params": {
+        "own": 1
+      }
     },
     "algolia": {
-        "app_id": "00GQDHDL1N",
-        "api_key_search_only": "b20c66c0a5491f92a4eb7366ebfa1c3b",
-        "index_name": "eilertsen",
-        "hits_per_page": 30,
-        "sort_by": "asc(rank)"
+      "app_id": "00GQDHDL1N",
+      "api_key_search_only": "b20c66c0a5491f92a4eb7366ebfa1c3b",
+      "index_name": "eilertsen",
+      "hits_per_page": 30,
+      "sort_by": "asc(rank)"
     }
-}
+  }
